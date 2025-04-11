@@ -4,6 +4,7 @@ import formulario from "../components/formulario.vue";
 import carousel from "../components/carousel.vue"; 
 import mapa from "../components/mapa.vue";
 import redes from "../components/redes.vue";
+import menu from "../components/menu.vue";
 
 const routes = [
     {
@@ -26,6 +27,11 @@ const routes = [
         path: "/redes",
         name: "redes",
         component: redes,
+    },
+    {
+        path: "/menu",
+        name: "menu",
+        component: menu,
     }
 ]
 const router =createRouter({

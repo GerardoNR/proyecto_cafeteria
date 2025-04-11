@@ -28,6 +28,9 @@ import router from './router';
               <li class="nav-item">
                 <router-link to="/redes" class="nav-link text-light">Redes Sociales</router-link>
               </li>
+              <li class="nav-item">
+                <router-link to="/menu" class="nav-link text-light">Menu</router-link>
+              </li>
             </ul>
           </div>
         </div>
