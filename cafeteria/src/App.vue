@@ -31,6 +31,12 @@ import router from './router';
               <li class="nav-item">
                 <router-link to="/menu" class="nav-link text-light">Menu</router-link>
               </li>
+              <li class="nav-item">
+                <router-link to="/comentarios" class="nav-link text-light">Comentarios</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/galeria" class="nav-link text-light">Galeria</router-link>
+              </li>
             </ul>
           </div>
         </div>

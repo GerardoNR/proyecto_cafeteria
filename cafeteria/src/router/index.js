@@ -5,6 +5,8 @@ import carousel from "../components/carousel.vue";
 import mapa from "../components/mapa.vue";
 import redes from "../components/redes.vue";
 import menu from "../components/menu.vue";
+import comentarios from "../components/comentarios.vue";
+import galeria from "../components/galeria.vue";
 
 const routes = [
     {
@@ -32,6 +34,17 @@ const routes = [
         path: "/menu",
         name: "menu",
         component: menu,
+    },
+    {
+        path: "/comentarios",
+        name: "comentarios",
+        component: comentarios,
+    }
+    ,
+    {
+        path: "/galeria",
+        name: "galeria",
+        component: galeria,
     }
 ]
 const router =createRouter({
