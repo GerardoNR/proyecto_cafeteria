@@ -20,23 +20,33 @@ import router from './router';
                 <router-link to="/carousel" class="nav-link text-light">Bienvenida</router-link>
               </li>
               <li class="nav-item">
-                <router-link to="/formulario" class="nav-link text-light">Cupones</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link to="/mapa" class="nav-link text-light">Ubicación</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link to="/redes" class="nav-link text-light">Redes Sociales</router-link>
-              </li>
-              <li class="nav-item">
                 <router-link to="/menu" class="nav-link text-light">Menu</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link to="/comentarios" class="nav-link text-light">Comentarios</router-link>
               </li>
               <li class="nav-item">
                 <router-link to="/galeria" class="nav-link text-light">Galeria</router-link>
               </li>
+              <li class="nav-item">
+                <router-link to="/formulario" class="nav-link text-light">Cupones</router-link>
+              </li>
+
+              <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Más Información
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <li>
+      <router-link to="/mapa" class="dropdown-item">Ubicación</router-link>
+    </li>
+    <li>
+      <router-link to="/redes" class="dropdown-item">Redes Sociales</router-link>
+    </li>
+    <li>
+      <router-link to="/comentarios" class="dropdown-item">Comentarios</router-link>
+    </li>
+  </ul>
+</li>
+
+             
             </ul>
           </div>
         </div>

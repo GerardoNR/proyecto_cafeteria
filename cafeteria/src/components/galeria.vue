@@ -105,4 +105,3 @@
   }
   
   </style>
-   esta de la galería de imagenes
